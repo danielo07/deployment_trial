@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body { padding-top: 0px; }
+
+.btn {
+	color: #FFF !important;
+}
+
+a {
+  color: #666; }
+  a:visited {
+    color: #666; }
+  a:hover {
+    color: #ff2077;
+    background-color: #fff;
+   }
+
+.full{
+	width: 1170px;
+	height: 800px;
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: url();
+    float: left;
+	
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-inverse {
+    background-color: #FFF;
+    opacity: 0.6;
+    border-color: #FFF;
+}
+
+.navbar-inverse.navbar-nav > li > a {
+    color: #777777;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #fff;
+    color: #ff2077;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #ff2077;
+}
+
+footer {
+	margin-top: 0px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777777;
+}
+
+
